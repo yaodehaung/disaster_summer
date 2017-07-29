@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Startmin - Bootstrap Admin Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="css/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/startmin.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="css/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- other -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Startmin</a>
+            </div>
+
+
+        </button>
+
+            <!-- Top Navigation: Left Menu -->
+            <ul class="nav navbar-nav navbar-left navbar-top-links">
+                <li><a href="#"><i class="fa fa-home fa-fw"></i> Website</a></li>
+            </ul>
+
+            <!-- Top Navigation: Right Menu -->
+            <ul class="nav navbar-right navbar-top-links">
+
+            </ul>
+
+            <!-- Sidebar -->
+
+        </nav>
+
+        <!-- Page Content -->
+        <div id="page-wrapper" style="margin-left:0px">
+            <div class="container-fluid">
+
+                <div class="row">
+
+
+                    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+                    <link rel="stylesheet" href="css/index.css" />
+                    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+                    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+                    <script src="js/index.js"></script>
+                    <div data-role="content">
+                        <h2 id="attention-count" class="attention"></h2>
+                        <h2 id="attention-over" class="attention-over"></h2>
+                        <h2 id="attention-ing" class="attention-ing"></h2>
+                        <h2><a href="https://github.com/peter279k/disaster_summer" target="_blank">專案網址</a></h2>
+                        <h2><a href="https://tcgbusfs.blob.core.windows.net/blobfs/GetDisasterSummary.json" target="_blank">資料來源</a></h2>
+                        <select id="over-ing" data-theme="b">
+                  <option value="true">請選擇案件情形</option>
+                  <option value="true">結案</option>
+                  <option value="false">未結案</option>
+                </select>
+                        <form>
+                            <input id="filter-input-placeholder" data-type="search" placeholder="ex: 請輸入區域,地址等">
+                        </form>
+                        <table id="disaster-table" data-role="table" data-filter="true" data-input="#filter-input-placeholder" class="ui-responsive ui-shadow ui-overlay-shadow disaster-table" data-mode="columntoggle"></table>
+                    </div>
+                </div>
+
+                <!-- ... Your content goes here ... -->
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>
