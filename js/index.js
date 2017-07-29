@@ -5,7 +5,7 @@ $(function() {
 	var case_over = 0;
 	var case_ing = 0;
 
-	$.getJSON("http://peter279k.com/xml_converter/xml_handler.php", function(data) {
+	$.getJSON("https://peter279k.com/xml_converter/xml_handler.php", function(data) {
 		case_data = data["DataSet"]["diffgr:diffgram"]["NewDataSet"]["CASE_SUMMARY"];
 
 		var str = "";
